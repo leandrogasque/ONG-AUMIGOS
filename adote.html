@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/adote.css">
+  <link rel="stylesheet" href="adote.js">
+  <title>AUMIGOS | ADOTE</title>
+  <style>
+    .barra-lateral {
+      position: static;
+      left: 0;
+      top: 0;
+      width: 200px;
+      height: auto;
+      background-color: #f0f0f0;
+      padding: 10px;
+      border: solid 2px #616161;
+    }
+
+    .barra-lateral ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .barra-lateral ul li {
+      margin-bottom: 10px;
+    }
+
+    .barra-lateral ul li a {
+      display: block;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .container-galeria {
+      display: flex;
+      grid-template-columns: repeat(4, 3fr);
+      gap: 40px;
+      justify-content: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ========================================NAVBAR=============================================== -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark py-3">
+
+    <img class="navbar-brand" src="img/logoong.png" width="200" height="200" class="d-inline-block align-top" alt="">
+    <h1 class="logo">Ong Aumigos</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">Sobre<span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="donate.html">Doe <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="adote.html">Adote <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contato.html">Contato <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="../voluntario.html">Seja Voluntário <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item active">
+          <!-- <a class="nav-link" href="marketplace.html">LOJA <span class="sr-only">(página atual)</span></a> -->
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Login/login.html">Logar-se <span class="sr-only">(página atual)</span></a>
+      </ul>
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-primary my-2 my-sm-0" type="submit" style="color: #f0f0f0;">Pesquisar</button>
+      </form> -->
+    </div>
+  </nav>
+
+  <!-- ========================================HEADER=============================================== -->
+  <header id="showcase">
+
+    <div id="showcase-container">
+      <h2>Estamos muito felizes de ter você aqui!</h2><br><br>
+      <p>Seu apoio é essencial para continuarmos resgatando,
+        reabilitando e encontrando lares cheios de amor para esses patudinhos!</p>
+
+    </div>
+
+  </header>
+  <section>
+    <div class="headline" style="color: #f0f0f0;">Me leva pra casa!</div>
+    <div class="container-galeria ml-0 p-1">
+      <div class="barra-lateral container-fluid ml-0">
+        <ul>
+          <li><a href="#" style="background-color: #74726e; color: #ccc; text-align: center;">Porte</a></li>
+          <input type="checkbox" id="sexo" name="area" value="sexo">
+          <label for="musica" style="color: #74726e;"> P - Até 5kg</label><br>
+          <input type="checkbox" id="sexo" name="area" value="sexo">
+          <label for="musica" style="color: #74726e;"> M - De 5kg a 10kg</label><br>
+          <input type="checkbox" id="sexo" name="area" value="sexo">
+          <label for="musica" style="color: #74726e;"> G - Acima de 10kg</label><br><br>
+          <li><a href="#" style="background-color: #74726e; color: #ccc; text-align: center;">Sexo</a></li>
+          <input type="checkbox" id="sexo" name="area" value="sexo">
+          <label for="musica" style="color: #74726e;"> Macho</label><br>
+          <input type="checkbox" id="sexo" name="area" value="sexo">
+          <label for="musica" style="color: #74726e;"> Fêmea</label><br><br>
+          <li><a href="#" style="background-color: #74726e; color: #ccc; text-align: center;">Idade</a></li>
+          <input type="checkbox" id="sexo" name="area" value="sexo">
+          <label for="musica" style="color: #74726e;"> Até 5 anos</label><br>
+          <input type="checkbox" id="sexo" name="area" value="sexo">
+          <label for="musica" style="color: #74726e;"> De 5 a 10 anos </label><br>
+          <input type="checkbox" id="sexo" name="area" value="sexo">
+          <label for="musica" style="color: #74726e;"> Acima de 10 anos </label><br>
+        </ul>
+      </div>
+      <div class="container ml-0">
+        <div id="gallery-container">
+          <div class="card" style="width: 18rem;">
+            <img src="img/adote/Screenshot_14.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pitoco</h5>
+              <p class="card-text"><span style="font-weight: bold;">Idade:</span> 5 anos</p>
+              <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/adote/Screenshot_15.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do animal</h5>
+              <p class="card-text">Descrição do animal</p>
+              <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/Screenshot_4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do animal</h5>
+              <p class="card-text">Descrição do animal</p>
+              <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/Screenshot_5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do animal</h5>
+              <p class="card-text">Descrição do animal</p>
+              <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/Screenshot_6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do animal</h5>
+              <p class="card-text">Descrição do animal</p>
+              <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/Screenshot_7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do animal</h5>
+              <p class="card-text">Descrição do animal</p>
+              <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+          </div>
+        </div>
+  </section>
+  <!-- ========================================FOOTER=============================================== -->
+  <footer class="bg-dark text-white position-static">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-4">
+          <h1>AUMIGOS</h1>
+          <p>Vidas Animais importam!</p>
+          <!-- Mova os ícones abaixo do parágrafo e ajuste o alinhamento -->
+          <div class="footer-social-media d-flex justify-content-space-between">
+            <a href="#" class="footer-link" id="instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="footer-link" id="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="footer-link" id="whatsapp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <!-- Div para envolver as logos -->
+          <div class="d-flex">
+            <div class="mb-3 mr-3"> <!-- Adicione margem à direita para separar as logos -->
+              <img src="img/logoong.png" alt="" class="rounded-circle"> <!-- Torna a imagem redonda -->
+            </div>
+            <div class="mb-3">
+              <img src="img/logo.png" alt="" class="rounded-circle"> <!-- Torna a imagem redonda -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h3>Inscreva-se</h3>
+          <p>Deixe seu E-mail e receba nossas novidades!</p>
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Seu E-mail">
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="button" style="color: #f0f0f0;">
+                <i class="fas fa-envelope"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center py-2 bg-dark">
+      &#169; 2023 - Todos os direitos reservados | INNOVATECH.
+    </div>
+  </footer>
+  <script>
+    $(document).ready(function () {
+      // Inicialmente carrega a galeria com todos os itens
+      filterGallery();
+
+      // Atualiza a galeria sempre que um filtro for alterado
+      $('.animal-filter').on('change', filterGallery);
+    });
+
+  </script>
+  <script>
+    // JavaScript para filtrar as imagens
+    $(document).ready(function () {
+      $('.animal-filter').on('change', function () {
+        // Lógica para filtrar as imagens com base nos checkboxes selecionados
+        filterGallery();
+      });
+
+      function filterGallery() {
+        // Exemplo: Oculta todas as imagens e mostra somente as que correspondem aos filtros selecionados
+        $('#gallery-container').empty(); // Limpa a galeria
+        // Aqui você implementaria a lógica para mostrar as imagens baseado nos filtros
+        // ...
+      }
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
